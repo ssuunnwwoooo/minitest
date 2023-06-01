@@ -1,0 +1,89 @@
+.sec {
+    max-width: 1200px;
+    max-height: 1200px;
+    height: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.tit {
+    text-align: center;
+    background: #f9f9f9;
+    margin: 15px;
+}
+
+.sec .tit h1 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.sec .tit p {
+    font-size: 15px;
+}
+
+
+.sec .inner {
+    display: flex;
+    gap: 50px;
+    width: 1200px;
+    padding: 300px 15px;
+    text-align: center;
+}
+
+
+.sec .inner figure {
+    flex: 1;
+}
+
+.sec .inner figcaption {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+/*  */
+
+.back {
+    max-height: 1200px;
+    height: 970px;
+    background: wheat;
+}
+
+.back .box {
+    position: absolute;
+
+    left: 703px;
+    bottom: -1200px;
+
+    width: 1200px;
+    height: 150px;
+    background: salmon;
+}
+
+.case {
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+}
+
+.itm {
+    background: #f9f9f9;
+    text-align: center;
+    margin: 10px 50px 10px 60px;
+}
+
+.four {
+    max-width: 1200px;
+    max-height: 1200px;
+    height: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.four .tit h2 {
+    font-size: 30px;
+}
+
+.four .case2 {
+    display: grid;
+}
